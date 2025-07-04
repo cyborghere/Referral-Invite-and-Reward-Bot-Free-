@@ -27,6 +27,8 @@ ReferralInviteRewardBot automates the entire referral contest process for your T
 
 🔒 Fully privacy-friendly – only tracks basic user IDs
 
+![image](https://github.com/user-attachments/assets/bc3aa849-618b-424b-a8e2-85c860ed574a)
+
 ✨ Key Features
 ✅ Simple /start onboarding flow
 ✅ Invite tracking with anti-cheat validation
@@ -36,32 +38,8 @@ ReferralInviteRewardBot automates the entire referral contest process for your T
 ✅ No technical setup needed – just add the bot!
 
 
-graph TD
-    A[/User sends /start/] --> B{Started with referral link?}
-    
-    B -- Yes --> C[Extract contest_id and referrer_id]
-    C --> D{Already subscribed to contest channel?}
-    
-    D -- Yes --> E[Do NOT count referral]
-    E --> F[Onboard user to contest]
-    F --> G[Give personal invite link]
-    G --> H[Explain contest rules & benefits]
-    
-    D -- No --> I[Ask user to join channel]
-    I --> J[Wait for "✅ I've Joined"]
-    J --> K[Verify join, count referral]
-    K --> L[Onboard user + give invite link]
-    L --> H
+👨‍💼 Perfect For :
 
-    B -- No --> M{User has active contest?}
-    M -- Yes --> N[Show main menu with options]
-    M -- No --> O[Welcome message]
-    O --> P[Prompt to use /start_own_contest]
-
-    H --> Q[Contest Participation Active]
-
-
-👨‍💼 Perfect For
 Trading groups
 
 Crypto/NFT communities
