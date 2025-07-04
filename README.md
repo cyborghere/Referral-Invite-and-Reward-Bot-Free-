@@ -4,6 +4,8 @@ Looking to grow your Telegram channel organically while rewarding your most acti
 🛠 Bot Username: @ReferralInviteRewardBot
 🔍 Search on Telegram and add it to your channel or group today!
 
+![image](https://github.com/user-attachments/assets/2d172cac-aa5f-4a57-80fc-04248207ee2f)
+
 🚀 What does the bot do?
 ReferralInviteRewardBot automates the entire referral contest process for your Telegram community:
 
